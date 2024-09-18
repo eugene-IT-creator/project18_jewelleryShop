@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba89723e-12af-403f-be94-7636ab38682c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2iWRyfKoxHekmssIAnaaL2M7msG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/eugenerodin/Documents/WebStorm Projects/02. Frontend_Developer_Course/Unit5_jewellery/project_jewellery 2",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/styles" />
+      <recent name="$PROJECT_DIR$/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba89723e-12af-403f-be94-7636ab38682c" name="Changes" comment="" />
+      <created>1719604604469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719604604469</updated>
+      <workItem from="1719604606051" duration="7000" />
+      <workItem from="1719855107682" duration="15737000" />
+      <workItem from="1720287790170" duration="11427000" />
+      <workItem from="1720347301869" duration="3282000" />
+      <workItem from="1720378072231" duration="8516000" />
+      <workItem from="1720461277786" duration="4862000" />
+      <workItem from="1720636547534" duration="12005000" />
+      <workItem from="1720803100131" duration="18133000" />
+      <workItem from="1720906968296" duration="5457000" />
+      <workItem from="1720977639026" duration="6524000" />
+      <workItem from="1721062297220" duration="11598000" />
+      <workItem from="1721404978325" duration="1877000" />
+      <workItem from="1721418530913" duration="5717000" />
+      <workItem from="1721466272751" duration="27189000" />
+      <workItem from="1721549116716" duration="7587000" />
+      <workItem from="1721587964516" duration="16751000" />
+      <workItem from="1721669410339" duration="21543000" />
+      <workItem from="1721754009737" duration="6208000" />
+      <workItem from="1721970593953" duration="4150000" />
+      <workItem from="1722016479045" duration="1984000" />
+      <workItem from="1726691935033" duration="278000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

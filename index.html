@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jewellery House "Diamond"</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="dist/style.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="general">
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="mobile-menu-global">
+                <div class="mobile-calc">
+                    <img src="images/mobile-calculator.png" class="popup-calc-btn" alt="Mobile calculator">
+                </div>
+                <div class="mobile-phone">
+                    <img src="images/mobile-phone.png" alt="Mobile phone">
+                </div>
+                <div class="mobile-menu" id="mobile-menu">
+                    <svg id="Layer_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="m464.883 64.267h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/>
+                        <path d="m464.883 208.867h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/>
+                        <path d="m464.883 353.467h-417.766c-25.98 0-47.117 21.137-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.012-21.137-47.149-47.117-47.149z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="menu-complete" id="menu">
+                <div class="menu-close">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+                                    c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+                                    c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+                                    L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+                                    c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+                                    c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+                                    c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="#">Catalog</a>
+                        </li>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="calc">
+                    <img src="images/calculator.png" alt="Calculator">
+                    <button type="button" class="popup-calc-btn" id="calcBtn">Sketch calculation</button>
+                </div>
+            </div>
+
+            <div class="phone">
+                <div class="phone-number">
+                    <img src="images/phone.png" alt="Phone">
+                    <span>8 (800) 000 00 00</span>
+                </div>
+                <span class="phone-call">Book a phone call</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="main wow animate__animated animate__fadeIn">
+        <div class="container">
+            <div class="main-title-2">
+                Exclusive jewellery just for you!
+            </div>
+            <div class="main-info">
+                <div class="main-title">
+                    Exclusive jewellery just for you!
+                </div>
+                <div class="main-text">
+                    Have you always dreamed of a product, but you are told everywhere that it is too difficult? It is
+                    not a problem for us! Our experienced craftsmen bring the most incredible designs to life.
+                </div>
+                <button type="button" class="btn">To catalog</button>
+
+            </div>
+            <div class="main-image">
+                <img src="images/main-image.png" alt="Main image">
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="director wow animate__animated animate__bounceInLeft">
+                <img src="images/director.png" alt="Director">
+            </div>
+            <div class="about-info wow animate__animated animate__bounceInRight">
+                <div class="about-title">
+                    Jewellery House Diamond is technology, skill and talent!
+                </div>
+                <div class="about-text-1">
+                    <div class="about-big-letter">
+                        L
+                    </div>
+                    <p>L</p>
+                    <span>arge jewellery manufacturing company with a network of salons and offices in Moscow and St.
+                    Petersburg, a large production base and an extensive staff of brilliant master jewellers, designers, jewellery
+                    stylists and jewellery designers. Production base and an extensive staff of brilliant master jewellers, designers, jewellery stylists
+                    and other specialists.</span>
+                </div>
+                <div class="about-text-2">
+                    <span>We are engaged in the production of unusual, exclusive jewellery from sketch to final sale, as well
+                    as providing a full range of jewellery services.</span>
+                    <span>We once started as a small but ambitious team of
+                    professionals in love with their business. Today, Diamond Ltd. is a large, well-oiled process of
+                    creating the jewellery of your dreams.</span>
+                </div>
+                <div class="about-signature">
+                    <img src="images/signature.png" alt="Signature">
+                </div>
+                <div class="about-name">
+                    Smith, D. General Manager
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="choose-item">
+        <div class="container">
+            <div class="choose-item-title">
+                Choose your own unique item!
+            </div>
+            <div class="choose-items">
+                <div class="choose-item-mobile-select">
+                    <select>
+                        <option value="Brooches">Brooches</option>
+                        <option value="Earrings">Earrings</option>
+                        <option value="Rings">Rings</option>
+                        <option value="Pendants">Pendants</option>
+                        <option value="Bracelets">Bracelets</option>
+                        <option value="Cains">Chains</option>
+                    </select>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/>
+                    </svg>
+                </div>
+                <div class="choose-items-sidebar wow animate__animated animate__fadeIn">
+                    <div class="choose-items-sidebar-title">
+                        Catalog
+                    </div>
+
+                    <div class="choose-items-sidebar-nav">
+                        <ul>
+                            <li>
+                                <a href="#" class="choose-items-item">Brooches</a>
+                            </li>
+                            <li>
+                                <a href="#" class="choose-items-item">Earrings</a>
+                            </li>
+                            <li>
+                                <a href="#" class="choose-items-item">Rings</a>
+                            </li>
+                            <li>
+                                <a href="#" class="choose-items-item">Pendants</a>
+                            </li>
+                            <li>
+                                <a href="#" class="choose-items-item">Bracelets and chains</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="choose-items-sidebar-title-2">
+                        Couldn't find an item?
+                    </div>
+                    <div class="choose-items-sidebar-text">
+                        Attach a photo, specify your wishes, and we will calculate the cost of the item.
+                    </div>
+                    <button type="button" class="btn popup-calc-btn">Calculate</button>
+                </div>
+                <div class="choose-items-items gap-3 wow animate__animated animate__flipInX">
+                    <div class="ring-1">
+                        <img src="images/ring1b.png" alt="Ring">
+                        <div class="item-description wow animate__animated animate__fadeIn">
+                            <div class="item-description-title">
+                                A lady's ring <br> with an emerald
+                            </div>
+                            <div class="item-description-text">
+                                Custom made
+                            </div>
+                            <button type="button" class="check-price-btn">Check price</button>
+                        </div>
+                    </div>
+                    <div class="ring-2">
+                        <img src="images/ring2b.png" alt="Ring">
+                        <div class="item-description wow animate__animated animate__fadeIn">
+                            <div class="item-description-title">
+                                A lady's ring <br> with a diamond
+                            </div>
+                            <div class="item-description-text">
+                                Custom made
+                            </div>
+                            <button type="button" class="check-price-btn">Check price</button>
+                        </div>
+                    </div>
+                    <div class="ring-3">
+                        <img src="images/ring3b.png" alt="Ring">
+                        <div class="item-description wow animate__animated animate__fadeIn">
+                            <div class="item-description-title">
+                                A lady's ring <br> 750 yellow gold
+                            </div>
+                            <div class="item-description-text">
+                                Custom made
+                            </div>
+                            <button type="button" class="check-price-btn">Check price</button>
+                        </div>
+                    </div>
+                    <div class="ring-4">
+                        <img src="images/ring4b.png" alt="Ring">
+                        <div class="item-description wow animate__animated animate__fadeIn">
+                            <div class="item-description-title">
+                                A lady's ring <br> with aquamarine & diamonds
+                            </div>
+                            <div class="item-description-text">
+                                Custom made
+                            </div>
+                            <button type="button" class="check-price-btn">Check price</button>
+                        </div>
+                    </div>
+                    <div class="ring-5">
+                        <img src="images/ring5b.png" alt="Ring">
+                        <div class="item-description wow animate__animated animate__fadeIn">
+                            <div class="item-description-title">
+                                Two engagement rings <br> with diamonds
+                            </div>
+                            <div class="item-description-text">
+                                Custom made
+                            </div>
+                            <button type="button" class="check-price-btn">Check price</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="order">
+        <div class="container">
+            <div class="order-area-border wow animate__animated animate__jackInTheBox">
+                <div class="order-area">
+                    <div class="order-area-discount">- 35 %</div>
+                    <div class="order-area-text">for all rings</div>
+                    <a href="#" type="button" class="btn btn-order">Place an order</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages-title">
+                Why choose us
+            </div>
+            <div class="advantages-items wow animate__animated animate__zoomIn">
+                <div class="advantage-item advantage-item-mobile-1">
+                    <div class="advantage-item-image">
+                        <img src="images/advantage-1.png" alt="Advantage">
+                    </div>
+                    <div class="advantage-item-title">
+                        Size accuracy
+                    </div>
+                    <div class="advantage-item-text">
+                        Rings sizes from 15.5
+                    </div>
+                </div>
+                <div class="advantage-item advantage-item-mobile-2">
+                    <div class="advantage-item-image">
+                        <img src="images/advantage-2.png" alt="Advantage">
+                    </div>
+                    <div class="advantage-item-title">
+                        Creation
+                    </div>
+                    <div class="advantage-item-text">
+                        Each product is handmade
+                    </div>
+                </div>
+                <div class="advantage-item advantage-item-mobile-3">
+                    <div class="advantage-item-image">
+                        <img src="images/advantage-3.png" alt="Advantage">
+                    </div>
+                    <div class="advantage-item-title">
+                        Lead times
+                    </div>
+                    <div class="advantage-item-text">
+                        От 14 до 30 дней
+                    </div>
+                    <div class="advantage-item-text">
+                        Urgent production - 7 days
+                    </div>
+                </div>
+                <div class="advantage-item advantage-item-mobile-4">
+                    <div class="advantage-item-image">
+                        <img src="images/advantage-4.png" alt="Advantage">
+                    </div>
+                    <div class="advantage-item-title">
+                        Guarantee
+                    </div>
+                    <div class="advantage-item-text">
+                        We offer a lifetime warranty on our products
+                    </div>
+                </div>
+                <div class="advantage-item advantage-item-mobile-5">
+                    <div class="advantage-item-image">
+                        <img src="images/advantage-5.png" alt="Advantage">
+                    </div>
+                    <div class="advantage-item-title">
+                        Delivery
+                    </div>
+                    <div class="advantage-item-text">
+                        We deliver finished products to any city in Europe and the USA
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="factory">
+        <div class="container">
+            <div class="factory-title">
+                Our factory
+            </div>
+            <div class="factory-items">
+                <div class="factory-item-1 wow animate__animated animate__fadeInLeft">
+                    <div class="factory-text-1">
+                        Diamond Jewellery House is a new star on the firmament of the jewellery world. The main priority
+                        of
+                        the
+                        company is a client satisfied with high-quality and exclusive jewellery. Each of our products
+                        undergoes
+                        the strictest quality control, which is ensured by specialists.
+                    </div>
+                    <div class="factory-image-1b wow animate__animated animate__fadeInLeft animate__delay-7ms">
+                        <div class="factory-image-1"></div>
+                    </div>
+                </div>
+                <div class="factory-item-2 wow animate__animated animate__fadeInRight">
+                    <div class="factory-image-2b wow animate__animated animate__fadeInRight animate__delay-7ms">
+                        <div class="factory-image-2"></div>
+                    </div>
+                    <div class="factory-text-2">
+                        Clients who contact us are themselves involved in the process of creating and realising their
+                        jewellery
+                        dream, whether it is a light ring with an unusual pattern or a large pendant with a unique
+                        diamond.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews-title">
+                Reviews about us
+            </div>
+            <div class="reviews-slider wow animate__animated animate__flipInY animate__delay-10ms">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-img">
+                                <img src="images/review01.png" alt="Review">
+                                <span class="swiper-slide-name">Mary, Denver</span>
+                            </div>
+                            <div class="swiper-slide-review-text">
+                                Custom made jewellery in gold. Executed at the highest level! Ring and earrings of
+                                extraordinary beauty. Jewellery House Diamond is a professional! To all my friends and
+                                acquaintances recommend!
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-img">
+                                <img src="images/review02.png" alt="Review">
+                                <span class="swiper-slide-name">Carol, NY</span>
+                            </div>
+                            <div class="swiper-slide-review-text">
+                                Great products. Good quality and reasonable price. Would recommend to anyone looking for
+                                a
+                                gift for loved ones.
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-img">
+                                <img src="images/review03.png" alt="Review">
+                                <span class="swiper-slide-name">Janis, Boston</span>
+                            </div>
+                            <div class="swiper-slide-review-text">
+                                Ordered a gold necklace with diamonds. The customer service is excellent. I was
+                                impressed
+                                with the speed of order fulfilment and the quality of work. I recommend to everyone!
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-img">
+                                <img src="images/review04.png" alt="Review">
+                                <span class="swiper-slide-name">Charon, London</span>
+                            </div>
+                            <div class="swiper-slide-review-text">
+                                Very polite and helpful staff. The expert advice helped me find exactly what I was
+                                looking
+                                for. The work and delivery is first class!
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-img">
+                                <img src="images/review05.png" alt="Review">
+                                <span class="swiper-slide-name">Alex, Birmingham</span>
+                            </div>
+                            <div class="swiper-slide-review-text">
+                                Great service. I was helped to find the right cufflinks for my husband to match his
+                                style of
+                                dress. It was a great gift for his birthday. Very fast delivery. The packaging was
+                                gorgeous.
+                                Thank you!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-infos">
+                <div class="footer-contact">
+                    <div class="logo footer-logo">
+                        <a href="#">
+                            <img src="images/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div>+1 (900) 14-14-333</div>
+                    <div class="footer-contact-mail">info@diamond.com</div>
+                    <div>New York</div>
+                    <div>Washington Street</div>
+                </div>
+                <div class="footer-opening-hours">
+                    <div class="footer-opening-hours-title">Opening hours</div>
+                    <div class="footer-opening-hours-text">Daily</div>
+                    <div class="footer-opening-hours-text">From 9:00 to 21:00</div>
+                    <div class="footer-opening-hours-text">Arrange your visit before visiting the factory</div>
+                </div>
+                <div class="footer-social">
+                    <div class="footer-social-title">Social Media</div>
+                    <div class="footer-social-icons">
+                        <div>Instagram</div>
+                        <div>Facebook</div>
+                        <div>Vkontakte</div>
+                        <div>Telegram Channel</div>
+                    </div>
+                    <div class="footer-social-mobile">
+                        <div class="footer-social-fb">
+                            <img src="images/social-facebook.png" alt="Facebook">
+                        </div>
+                        <div class="footer-social-insta">
+                            <img src="images/social-insta.png" alt="Instagram">
+                        </div>
+                        <div class="footer-social-vk">
+                            <img src="images/social-vk.png" alt="vKontakte">
+                        </div>
+                        <div class="footer-social-telegram">
+                            <img src="images/social-telegram.png" alt="Telegram">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <div class="footer-newsletter-title">
+                        Subscribe to newsletter
+                    </div>
+                    <div class="footer-newsletter-text">
+                        Learn about products and discounts
+                    </div>
+                    <div class="footer-subscribe">
+                        <input class="footer-subscribe-mail" type="email" name="email" placeholder="E-Mail">
+                        <button type="button" class="footer-subscribe-btn" id="subscribeBtn">Sign Up</button>
+                    </div>
+                    <div class="footer-subscribe-success">
+                        Successful!
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</div>
+
+
+<section class="popup-calculate">
+    <div class="popup-calc" id="popupCalc">
+        <div class="close-popup" id="closePopup">
+            <svg enable-background="new 0 0 512 512" height="512px" id="Layer_1" version="1.1" viewBox="0 0 512 512"
+                 width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M256,7C118.467,7,7,118.468,7,256.002C7,393.533,118.467,505,256,505s249-111.467,249-248.998  C505,118.468,393.533,7,256,7z M256,485.08c-126.31,0-229.08-102.771-229.08-229.078C26.92,129.692,129.69,26.92,256,26.92  c126.309,0,229.08,102.771,229.08,229.082C485.08,382.309,382.309,485.08,256,485.08z"/>
+                <polygon
+                        points="368.545,157.073 354.461,142.988 255.863,241.587 157.733,143.456 143.648,157.54 241.78,255.672   143.648,353.809 157.733,367.893 255.863,269.75 354.461,368.361 368.545,354.275 269.947,255.672 "/></svg>
+        </div>
+        <div class="popup-calc-title">
+            Complete the form
+        </div>
+        <form class="popup-calc-form">
+            <label>Full Name</label>
+            <input type="text" value="" name="name" class="popup-calc-input" id="name">
+            <div class="popup-calc-error-input">Enter your full name</div>
+            <label>E-Mail</label>
+            <input type="email" value="" name="email" class="popup-calc-input email" id="email">
+            <div class="popup-calc-error-input">Enter your email</div>
+            <label>Phone</label>
+            <input type="tel" value="" name="phone" class="popup-calc-input" id="phone">
+            <div class="popup-calc-error-input">Enter your phone no.</div>
+            <label>Item type</label>
+            <select id="item" class="popup-calc-input" name="itemName">
+                <option value=""></option>
+                <option value="ring">Ring</option>
+                <option value="neckless">Neckless</option>
+                <option value="chain">Chains</option>
+                <option value="pendant">Pendant</option>
+            </select>
+            <div class="popup-calc-error-input">Choose item</div>
+            <label>Alloy</label>
+            <select id="alloy" class="popup-calc-input" name="alloy">
+                <option value=""></option>
+                <option value="585">585</option>
+                <option value="750">750</option>
+                <option value="980">980</option>
+                <option value="platinum">Platinum</option>
+            </select>
+            <div class="popup-calc-error-input">Choose alloy</div>
+            <label id="chooseGems">Gems</label>
+            <select id="gems" class="popup-calc-input" name="gems">
+                <option value=""></option>
+                <option value="diamonds">Diamonds</option>
+                <option value="sapphires">Sapphires</option>
+                <option value="emeralds">Emeralds</option>
+                <option value="mix">Mix</option>
+                <option value="no gems">No gems</option>
+            </select>
+            <div class="popup-calc-error-input">Choose gems</div>
+            <label id="addText">Add comment</label>
+            <textarea name="story" rows="3" cols="33"></textarea>
+        </form>
+        <div class="popup-calc-check">
+            <input type="checkbox" name="check" id="checked"><span>Agree to our Terms & Conditions</span>
+            <div class="popup-calc-error-input">Please accept</div>
+        </div>
+        <button type="button" class="popup-calc-btn" id="submit">Calculate</button>
+    </div>
+</section>
+
+<section class="popup-checkPrice">
+    <div class="popup-check" id="popup-checkPrice">
+        <div class="close-popup-checkPrice" id="closePopup-checkPrice">
+            <svg enable-background="new 0 0 512 512" height="512px" id="Layer_1" version="1.1" viewBox="0 0 512 512"
+                 width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M256,7C118.467,7,7,118.468,7,256.002C7,393.533,118.467,505,256,505s249-111.467,249-248.998  C505,118.468,393.533,7,256,7z M256,485.08c-126.31,0-229.08-102.771-229.08-229.078C26.92,129.692,129.69,26.92,256,26.92  c126.309,0,229.08,102.771,229.08,229.082C485.08,382.309,382.309,485.08,256,485.08z"/>
+                <polygon
+                        points="368.545,157.073 354.461,142.988 255.863,241.587 157.733,143.456 143.648,157.54 241.78,255.672   143.648,353.809 157.733,367.893 255.863,269.75 354.461,368.361 368.545,354.275 269.947,255.672 "/></svg>
+        </div>
+        <div class="popup-title-checkPrice">
+            Complete the form
+        </div>
+        <form class="form-checkPrice">
+            <label>Full Name</label>
+            <input type="text" value="" name="name" class="input-checkPrice" id="name-checkPrice">
+            <div class="error-input-checkPrice">Enter your full name</div>
+            <label>E-Mail</label>
+            <input type="email" value="" name="email" class="input-checkPrice" id="email-checkPrice">
+            <div class="error-input-checkPrice">Enter your email</div>
+            <label>Phone</label>
+            <input type="tel" value="" name="phone" class="input-checkPrice" id="phone-checkPrice">
+            <div class="error-input-checkPrice">Enter your phone no.</div>
+            <label>Add comment</label>
+            <textarea name="story" rows="3" cols="33"></textarea>
+        </form>
+        <div class="check-checkPrice">
+            <input type="checkbox" name="terms" id="checked-checkPrice"><span id="agreed-checkPrice">Agree to our Terms & Conditions</span>
+            <div class="error-input-checkPrice">Please agree</div>
+        </div>
+        <button type="button" class="popup-btn-checkPrice" id="submit-checkPrice">Check price</button>
+    </div>
+</section>
+
+<section class="popup-sent">
+    <div class="popup-success">
+        <div class="message-sent">
+            Thanks for your message! <br> We'll be in touch shortly.
+        </div>
+        <button type="button" class="popup-success-btn" id="submitted">OK</button>
+    </div>
+
+</section>
+
+
+<script>
+    document.getElementById('mobile-menu').onclick = function () {
+        document.getElementById('menu').classList.add('open');
+    }
+
+    document.querySelectorAll('#menu *').forEach((item) => {
+        item.onclick = () => {
+            document.getElementById('menu').classList.remove('open');
+        }
+    })
+</script>
+
+<script src="bootstrap.min.js"></script>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="node_modules/swiper/swiper-bundle.min.js"></script>
+
+<script src="jquery.inputmask.min.js"></script>
+
+<script src="wow.min.js"></script>
+
+<script src="node_modules/less/dist/less.min.js"></script>
+
+<script src="main.js"></script>
+
+</body>
+</html>
